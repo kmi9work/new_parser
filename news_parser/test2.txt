@@ -1,0 +1,11 @@
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/mini_portile-0.6.0/lib
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/nokogiri-1.6.2.1-x86-mingw32/lib
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby/1.9.1
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby/1.9.1/i386-msvcrt
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/site_ruby
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby/1.9.1
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby/1.9.1/i386-msvcrt
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/vendor_ruby
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1
+c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/i386-mingw32
+
