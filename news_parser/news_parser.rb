@@ -34,10 +34,12 @@ end
 # http://help.yandex.ru/search/query-language/crib-sheet.xml
 queries = ['Карательный батальон & Донбасса /(-1 +4) засаду']
 
+right = "%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD+%26+%D0%94%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81%D0%B0+%2F(-1+%2B4)+%D0%B7%D0%B0%D1%81%D0%B0%D0%B4%D1%83"
 escaped = CGI.escape(queries[0])
-unless (escaped == "%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD+%26+%D0%94%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81%D0%B0+%2F(-1+%2B4)+%D0%B7%D0%B0%D1%81%D0%B0%D0%B4%D1%83")
+unless (escaped == right)
 	puts escaped
-	puts "%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D0%BE%D0%BD+%26+%D0%94%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81%D0%B0+%2F(-1+%2B4)+%D0%B7%D0%B0%D1%81%D0%B0%D0%B4%D1%83"
+	puts right
+ 
 	# exit
 end
 # &how=tm -- По дате.

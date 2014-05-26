@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+<% i = 0 %> 
+<% @news_parser.contents.each_key do |link| %>
+	<p> <%= link_to link, "#anc#{i += 1}" %> </p>
+<% end %>
+
+<% i = 0 %> 
+<% @news_parser.contents.each do |link, content| %>
+	<div class="article">
+		<p><a name="<%= "anc#{i += 1}" %>"></a><b> <%= content[0] %> </b> </p>
+		<p> <%= link_to link, link %> </p>
+		<p> <%= content[1] %> </p>
+	</div>
+<% end %>
+
+

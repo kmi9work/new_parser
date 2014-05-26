@@ -1,0 +1,18 @@
+encoding "utf8";
+
+import "kwtypes.proto";
+
+surname "ленин"
+{
+	key = "ленин"
+}
+
+surname "пушкин"
+{
+	key = "пушкин"
+}
+
+surname "гагарин"
+{
+	key = "гагарин"
+}

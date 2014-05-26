@@ -1,0 +1,26 @@
+encoding "utf8";
+
+import "base.proto";
+import "articles_base.proto";
+
+import "fact_types.proto";
+
+import "kwtypes.proto";
+
+import "surnames.gzt";
+
+
+TAuxDicArticle "найдем_существительное_в"
+{
+	key = {"tomita:grammar.cxx" type=CUSTOM}
+}
+
+TAuxDicArticle "адрес"
+{
+	key = {"tomita:adress.cxx" type=CUSTOM}
+}
+
+TAuxDicArticle "имени"
+{
+	key = {"tomita:imeni.cxx" type=CUSTOM}
+}

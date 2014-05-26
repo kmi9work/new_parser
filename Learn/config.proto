@@ -1,0 +1,24 @@
+encoding "utf8";
+
+TTextMinerConfig {
+	Dictionary = "dict.gzt";
+
+	PrettyOutput = "PrettyOut.html";
+
+	Input = {
+		File = "first.txt"
+	}
+	Output = {
+		File = "output.txt"
+		Format = text
+	}
+
+	Articles = [
+		{Name = "имени"}
+	]
+
+	// Facts = [
+	// 	{Name = "Adress"}
+	// ]
+
+}
